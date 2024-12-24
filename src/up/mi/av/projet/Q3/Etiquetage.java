@@ -1,4 +1,4 @@
-package up.mi.av.projet;
+package up.mi.av.projet.Q3;
 
 import java.util.HashMap;
 import java.util.Map;
