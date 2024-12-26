@@ -1,5 +1,10 @@
 package up.mi.av.projet.Q3;
 
+/**
+ * 
+ * @author Zakaria Chaker
+ *
+ */
 public class Coloriage {
 	
 	/**
@@ -35,8 +40,11 @@ public class Coloriage {
 	
 	/**
 	 * Test de la méthode est_col sur un graphe de type Patersen (graphe Q3.) 
+	 * Pour effectuer le test, il suffit de décommenter la méthode main qui construit le graphe.
+	 *  
 	 * @param args
 	 */
+	/*
 	public static void main(String[]args)
 	{
 		Graphe gphe = new Graphe(10);
@@ -71,5 +79,5 @@ public class Coloriage {
 		
 		System.out.print(est_col(gphe, etiq));
 	}
-
+	*/
 }
