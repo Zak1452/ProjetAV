@@ -4,6 +4,9 @@ import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
 
 /**
+ * Cette classe permet d'implémenter une méthode statique qui renvoie l'etiquetagge d'un graphe 2-coloriable.
+ * Si le graphe n'est pas 2-coloriable il y a un message d'erreur qui est renvoyé.
+ * Il est possible dans cette classe d'effectuer directement un test.
  * 
  * @author Zakaria Chaker 
  *
@@ -96,7 +99,7 @@ public class DeuxColoriage {
 		gphe.ajoutRelation(0, 2);
 		gphe.ajoutRelation(1, 3);
 		gphe.ajoutRelation(2, 3);
-		\\gphe.ajoutRelation(0, 3);
+		//gphe.ajoutRelation(0, 3);
 		
 		System.out.println(up.mi.av.projet.Q3.Coloriage.est_col(gphe, deux_col(gphe)));
 	}

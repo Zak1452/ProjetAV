@@ -53,4 +53,14 @@ public class Etiquetage {
 		return this.etiquettes.get(sommet);
 	}
 	
+	/**
+	 * @return les etiquettes sous forme de chaine de caracteres
+	 */
+	public String toString()
+	{
+		StringBuffer sb = new StringBuffer();
+		sb.append(etiquettes);
+		return sb.toString();
+	}
+	
 }

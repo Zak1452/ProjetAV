@@ -1,6 +1,8 @@
 package up.mi.av.projet.Q3;
 
 /**
+ * Cette classe permet d'implémenter une fonction permettant de vérifier si un graphe est coloriable par un etiquetage est envisageable.
+ * Elle permet aussi d'effectuer un test, ce test correspond au graphe de Petersen (figure 2) du sujet.
  * 
  * @author Zakaria Chaker
  *
