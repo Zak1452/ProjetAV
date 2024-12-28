@@ -38,6 +38,17 @@ Méthodes principales:
 - etiqueter(int sommet, int etiquette):  Associe une étiquette (couleur) à un sommet dans le graphe. L'étiquette est un entier unique pour chaque sommet.
 - getEtiquette(int sommet): Retourne l'étiquette associée à un sommet donné. Si le sommet n'a pas encore été étiqueté ou n'existe pas dans la Map, une exception est levée.
 
+3.Coloriage.java: 
+La classe Coloriage permet de vérifier si un graphe est correctement colorié, c'est-à-dire si l'étiquetage respectant les contraintes de coloriage est valide
+
+Méthode principale:
+
+- est_col(Graphe gphe, Etiquetage etiq): Cette méthode vérifie si un graphe est correctement colorié en fonction de l'étiquetage fourni. Un graphe est colorié correctement si:
+- Chaque sommet a bien une étiquette assignée.
+- Aucun sommet adjacent n'a la même étiquette.
+- Le nombre d'étiquettes utilisées est égal au nombre de sommets du graphe.
+
+
 ________________________________________
 Exécution du programme
 
