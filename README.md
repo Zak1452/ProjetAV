@@ -43,11 +43,8 @@ La classe Coloriage permet de vérifier si un graphe est correctement colorié, 
 
 Méthode principale:
 
-- est_col(Graphe gphe, Etiquetage etiq): Cette méthode vérifie si un graphe est correctement colorié en fonction de l'étiquetage fourni. Un graphe est colorié correctement si:
-- Chaque sommet a bien une étiquette assignée.
-- Aucun sommet adjacent n'a la même étiquette.
-- Le nombre d'étiquettes utilisées est égal au nombre de sommets du graphe.
-
+- est_col(Graphe gphe, Etiquetage etiq): Cette méthode vérifie si un graphe est correctement colorié en fonction de l'étiquetage fourni. Un graphe est colorié correctement si: Chaque sommet a bien une étiquette assignée. Aucun sommet adjacent n'a la même étiquette. Le nombre d'étiquettes utilisées est égal au nombre de sommets du graphe.
+- main(): Permet d'effectuer un test.
 
 ________________________________________
 Exécution du programme
