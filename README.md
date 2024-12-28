@@ -32,6 +32,12 @@ Méthodes principales:
 2.Etiquetage.java: 
 Cette classe permet d'assigner une étiquette (ou couleur) à chaque sommet d'un graphe. L'étiquette est représentée par un nombre entier unique, et elle est stockée dans une Map qui associe chaque sommet à sa couleur.
 
+Méthodes principales:
+
+- Etiquetage: Constructeur qui initialise une instance de la classe Etiquetage en créant une nouvelle Map vide. Cette Map sera utilisée pour associer des sommets aux étiquettes.
+- etiqueter(int sommet, int etiquette):  Associe une étiquette (couleur) à un sommet dans le graphe. L'étiquette est un entier unique pour chaque sommet.
+- getEtiquette(int sommet): Retourne l'étiquette associée à un sommet donné. Si le sommet n'a pas encore été étiqueté ou n'existe pas dans la Map, une exception est levée.
+
 ________________________________________
 Exécution du programme
 
