@@ -49,8 +49,8 @@ public class Etiquetage {
 	public int getEtiquette(int sommet) throws IllegalArgumentException
 	{
 		if(!etiquettes.containsKey(sommet) || etiquettes.get(sommet).equals(null))
-			throw new IllegalArgumentException("Erreur: le sommet n'existe pas dans la relation d'etiquettage ou n'a pas été encore.");
-		return this.etiquettes.get(sommet);
+			throw new IllegalArgumentException("Erreur: le sommet n'existe pas dans la relation d'etiquettage ou n'a pas été encore cree.");
+		return this.etiquettes.get(sommet); 
 	}
 	
 	/**
