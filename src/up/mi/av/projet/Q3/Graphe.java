@@ -60,6 +60,10 @@ public class Graphe {
 	{	return this.nbSommets;
 	}
 	
+	public Map<Integer, List<Integer>> getAretes()
+	{	return this.aretes;
+	}
+	
 	/**
 	 * Méthode qui retourne une liste de voisins concerant un sommet précis du graphe.
 	 * Erreur, si sommet non reconnu.
