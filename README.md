@@ -30,7 +30,7 @@ Méthodes principales:
 - getSommets(): Retourne l'ensemble des sommets présents dans le graphe.
 
 2.Etiquetage.java: 
-Cette 
+Cette classe permet d'assigner une étiquette (ou couleur) à chaque sommet d'un graphe. L'étiquette est représentée par un nombre entier unique, et elle est stockée dans une Map qui associe chaque sommet à sa couleur.
 
 ________________________________________
 Exécution du programme
