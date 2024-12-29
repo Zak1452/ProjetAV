@@ -95,7 +95,7 @@ public class UtilDegre {
 	 * 
 	 * 
 	 * Pour effectuer le test, il faudra décommenter le script du bas.
-	 * Le test affiche un etiquettage
+	 * Le test affiche un etiquettage.
 	 * @param args
 	 */
 	/*
