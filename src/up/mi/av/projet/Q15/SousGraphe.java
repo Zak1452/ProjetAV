@@ -16,9 +16,9 @@ public class SousGraphe {
      * Cette classe genere la matrice d'adjacence d'un sous-graphe défini par le vecteur sg.
      * 
      * @param graphe 
-     * @param sg vecteur des indices des sommets du sous-graphe
+     * @param sg
      * @return matrice d'adjacence du sous-graphe
-     * @throws IllegalArgumentException Si sg contient des indices non valides
+     * @throws IllegalArgumentException
      */
     public static int[][] sousGraphe(Graphe gphe, int[] sg) throws IllegalArgumentException {
         
@@ -81,8 +81,8 @@ public class SousGraphe {
 		gphe.ajoutRelation(2, 5);
 		
 		
-		int[] sousGrapheVect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-		int[][] matriceSousGraphe = sousGraphe(gphe, sousGrapheVect);
+		int [] sousGrapheVect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int [][] matriceSousGraphe = sousGraphe(gphe, sousGrapheVect);
 
 		System.out.println("Matrice d'adjacence du sg: ");
 		for (int i = 0; i < matriceSousGraphe.length; i++) 
