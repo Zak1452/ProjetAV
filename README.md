@@ -138,3 +138,8 @@ Dépendances et prérequis
 Java 8 ou plus récent.
 Aucune bibliothèque externe n'est requise pour ce projet.
 
+---------------------------------------
+Lien vers le projet sur GitHub
+
+Vous pouvez accéder au projet en ligne via le lien suivant : [ProjetAV sur GitHub](https://github.com/Zak1452/ProjetAV.git)
+
