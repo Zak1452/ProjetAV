@@ -14,6 +14,10 @@ Le projet est organisé en .. packages situés dans le dossier src:
 •	up.mi.av.projet.Q8
 •	up.mi.av.projet.Q9
 •	up.mi.av.projet.Q12
+•	up.mi.av.projet.Q15
+•	up.mi.av.projet.Q16
+•	up.mi.av.projet.Q17
+•	up.mi.av.projet.Q18
 
 
 *Q3:
@@ -36,7 +40,7 @@ Cette classe permet d'assigner une étiquette (ou couleur) à chaque sommet d'un
 Méthodes principales:
 
 - Etiquetage: Constructeur qui initialise une instance de la classe Etiquetage en créant une nouvelle Map vide. Cette Map sera utilisée pour associer des sommets aux étiquettes.
-- etiqueter(int sommet, int etiquette):  Associe une étiquette (couleur) à un sommet dans le graphe. L'étiquette est un entier unique pour chaque sommet.
+- etiqueter(int sommet, int etiquette): Associe une étiquette (couleur) à un sommet dans le graphe. L'étiquette est un entier unique pour chaque sommet.
 - getEtiquette(int sommet): Retourne l'étiquette associée à un sommet donné. Si le sommet n'a pas encore été étiqueté ou n'existe pas dans la Map, une exception est levée.
 
 3.Coloriage.java: 
@@ -50,6 +54,21 @@ Méthode principale:
 
 *Q6:
 
+Classe implémentant un 2-coloriage d’un graphe. 
+
+1.DeuxColoriage.java:
+- deux_col(Graphe gphe)`: Retourne un 2-coloriage du graphe ou un message d'erreur.
+- coloriageComposante(Graphe gphe, Etiquetage etiq, int sommet, int couleur): Effectue le coloriage de manière récursive d'une composante connexe (DFS).  
+- main(): Permet de tester un 2-coloriage sur un graphe.
+
+*Q8:
+
+Classe dédiée à la détermination de la couleur minimale potentiellement utilisable par un sommet dans un graphe.  
+
+1. CouleurMinimale.java
+- min_couleur_possible(Graphe gphe, Etiquetage etiq, int sommet): Retourne la plus petite couleur utilisable pour un sommet.  
+- main(): Teste la méthode avec un exemple de graphe simple.  
+  
 ________________________________________
 Exécution du programme
 
