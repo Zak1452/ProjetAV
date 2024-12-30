@@ -5,10 +5,10 @@ Projet réalisé par:
 CHAKER Zakaria
 
 Description du projet:
-
+Ce projet implémente plusieurs algorithmes pour résoudre des problèmes de coloriage de graphes. Le projet est divisé en plusieurs packages, chacun correspondant à un algorithme ou une méthode spécifique. Le but principal est de démontrer différentes techniques de coloriage et d'analyse des graphes.
 
 Structure du projet:
-Le projet est organisé en .. packages situés dans le dossier src:
+Le projet est organisé en packages situés dans le dossier src:
 •	up.mi.av.projet.Q3
 •	up.mi.av.projet.Q6
 •	up.mi.av.projet.Q8
@@ -19,6 +19,7 @@ Le projet est organisé en .. packages situés dans le dossier src:
 •	up.mi.av.projet.Q17
 •	up.mi.av.projet.Q18
 
+Chaque package contient des classes permettant de résoudre des problématiques spécifiques liées aux graphes, chaque package porte à la fin le numéro de la question correspondante.
 
 *Q3:
 Ce package contient les classes principales pour gérer un graphe et l'etiquetage de ce dernier (coloriage) :
@@ -65,10 +66,75 @@ Classe implémentant un 2-coloriage d’un graphe.
 
 Classe dédiée à la détermination de la couleur minimale potentiellement utilisable par un sommet dans un graphe.  
 
-1. CouleurMinimale.java
+1.CouleurMinimale.java:
 - min_couleur_possible(Graphe gphe, Etiquetage etiq, int sommet): Retourne la plus petite couleur utilisable pour un sommet.  
 - main(): Teste la méthode avec un exemple de graphe simple.  
-  
+
+*Q9:
+
+Cette classe implémente une méthode gloutonne pour colorier un graphe.  
+
+1.ColoriageGlouton.java:
+- glouton(Graphe gphe, int[] vectNum): Colore un graphe en suivant l'ordre des sommets donné.  - min_couleur_possibleBis(Graphe gphe, Etiquetage etiq, int sommet): Variante de min_couleur_possible sans accepter la couleur `-1`.  
+- main(): Teste le coloriage glouton sur le graphe de Petersen.
+
+*Q12:
+
+Classe qui implémente des méthodes pour analyser et colorier un graphe efficacement.  
+
+1.UtilDegre.java:  
+- tri_degre(Graphe gphe): Trie les sommets par ordre décroissant de degré.  
+- welsh_Powell(Graphe gphe): Implémente l'algorithme de Welsh-Powell pour minimiser les couleurs.  
+- main(): Effectue le tri des sommets et l'algorithme Welsh-Powell sur un graphe.
+ 
+*Q15:
+
+Cette classe implemente une methode permettant de générer des sous-graphes à partir d'un graphe initial.  
+
+1.SousGraphe.java:
+- sous_graphe(Graphe gphe, int[] sg): Génère la matrice d'adjacence d'un sous-graphe défini par un vecteur de sommets.  
+- main(): Teste la génération de la matrice d'adjacence pour un sous-graphe.  
+
+*Q16:
+
+Classe fournissant des outils pour analyser les sommets non colorés d’un graphe.  
+
+1.UtilGraphe.java: 
+- voisins_non_colories(Graphe gphe, Etiquetage etiq, int sommet): Retourne les voisins non colorés d’un sommet donné.  
+- degre_non_colories(Graphe gphe, Etiquetage etiq, int sommet): Calcule le nombre de voisins non colorés d’un sommet donné.  
+- main(): Teste les méthodes sur un graphe avec un sommet non coloré.
+
+*Q17:
+
+Cette classe permettant d’implémenter une méthode identifiant les sommets non colorés d’un graphe.  
+
+1.NonColoriage.java: 
+- non_colories(Graphe gphe, Etiquetage etiq): Retourne la liste des sommets non colorés du graphe.  
+- main(): Teste la méthode en affichant les sommets non colorés d’un graphe.  
+
+*Q18:
+
+Classe implémentant l'algorithme de Wigderson pour la coloration d’un graphe en 3 couleurs.  
+
+1.AlgorithmeWigderson.java:
+- wigderson(Graphe gphe): Colore un graphe en utilisant au maximum 3 couleurs ou retourne null si ce n’est pas possible. 
+- main(): Teste l’algorithme sur un graphe, vérifie le résultat avec la méthode est_col pour valider le coloriage.  
+
 ________________________________________
 Exécution du programme
+
+Le projet doit être exécuté dans un IDE Java (Eclipse, VSCode, etc.). Pour tester les algorithmes:
+
+- Cloner le projet depuis le dépôt.
+- Ouvrir dans un IDE Java compatible.
+- Décommenter les méthodes main() dans les classes où vous souhaitez effectuer un test.
+  Chaque classe contient des tests correspondant à des graphes spécifiques, comme le graphe de Petersen.
+- Exécuter les tests en lançant la méthode main() pour vérifier les résultats des algorithmes.
+Tous les détails de chaque méthode et de ses tests sont documentés dans les commentaires du code.
+
+________________________________________
+Dépendances et prérequis
+
+Java 8 ou plus récent.
+Aucune bibliothèque externe n'est requise pour ce projet.
 
