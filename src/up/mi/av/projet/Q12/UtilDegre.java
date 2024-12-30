@@ -95,10 +95,12 @@ public class UtilDegre {
 	 * 
 	 * 
 	 * Pour effectuer le test, il faudra décommenter le script du bas.
-	 * Le test affiche un etiquettage.
+	 * Le test affiche un etiquettage. Dans ce cas on a commenté egalement la ligne qui ajoute une relation entre 5 et 7.
 	 * @param args
 	 */
+	
 	/*
+
 	public static void main(String[]args)
 	{
 		Graphe gphe = new Graphe(10);
@@ -114,13 +116,14 @@ public class UtilDegre {
 		gphe.ajoutRelation(6, 1);
 		gphe.ajoutRelation(1, 8);
 		gphe.ajoutRelation(1, 7);
-		gphe.ajoutRelation(7, 5);
+		//gphe.ajoutRelation(7, 5);
 		gphe.ajoutRelation(8, 2);
 		gphe.ajoutRelation(2, 5);
 		
-		System.out.println("Sommets triés par degre: " + Arrays.toString(tri_degre(gphe)));
-		System.out.println("Résultat de l'algo Welsh-Powell: " + welsh_Powell(gphe));
+		System.out.println("\nSommets triés par degre: " + Arrays.toString(tri_degre(gphe)));
+		System.out.println("\nRésultat de l'algo Welsh-Powell: " + welsh_Powell(gphe));
 	}
+	
 	*/
 
 	

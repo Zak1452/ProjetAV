@@ -6,9 +6,9 @@ import java.util.List;
 import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
 /**
+ * Cette classe permettant d’implémenter une méthode identifiant les sommets non colorés d’un graphe.  
  * 
  * @author Zakaria Chaker
- *
  */
 public class NonColoriage {
 	/**
@@ -45,7 +45,9 @@ public class NonColoriage {
      * Pour effectuer ce test, il suffit de décommenter le scritp du bas
      * @param args
      */
-    /*
+    
+   /*
+    
     public static void main(String[]args)
     {
     	Graphe gphe = new Graphe(10);
@@ -78,7 +80,9 @@ public class NonColoriage {
 		etiq.etiqueter(8, 1);
 		etiq.etiqueter(9, 1);
 		
-		System.out.println(non_colories(gphe, etiq));
+		System.out.println("Sommets qui ne sont pas coloriés dans ce graphe: "+non_colories(gphe, etiq));
     }
+    
     */
+    
 }

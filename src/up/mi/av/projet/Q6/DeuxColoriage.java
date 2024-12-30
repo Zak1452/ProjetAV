@@ -92,6 +92,7 @@ public class DeuxColoriage {
 	 */
 	
 	/*
+	 
 	public static void main(String []args)
 	{
 		Graphe gphe = new Graphe(4);
@@ -101,8 +102,10 @@ public class DeuxColoriage {
 		gphe.ajoutRelation(2, 3);
 		//gphe.ajoutRelation(0, 3);
 		
-		System.out.println(up.mi.av.projet.Q3.Coloriage.est_col(gphe, deux_col(gphe)));
+	   System.out.println("Est-ce-que le 2-coloriage realise est un coloriage valide: "+ (up.mi.av.projet.Q3.Coloriage.est_col(gphe, deux_col(gphe)) ? "oui" : "non"));
 	}
+	
 	*/
+
 
 }

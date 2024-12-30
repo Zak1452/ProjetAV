@@ -1,5 +1,6 @@
 package up.mi.av.projet.Q9;
 
+import up.mi.av.projet.Q3.Coloriage;
 import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
 
@@ -93,7 +94,9 @@ public class ColoriageGlouton {
 	 * Au cours de ce test, on obtient un etiquetage. Puis on effectue une verification avec la methode est_col (issue du pacakge Q3).
 	 * @param args
 	 */
+	
 	/*
+
 	public static void main(String[] args) {
 		
         
@@ -118,12 +121,13 @@ public class ColoriageGlouton {
 
         try {
             Etiquetage etiq = ColoriageGlouton.glouton(gphe, vectNum);
-            System.out.println("Coloriage des sommets: " + etiq);
-            System.out.println("C'est un coloriage: "+Coloriage.est_col(gphe, etiq));
+            System.out.println("\nColoriage des sommets: " + etiq);
+            System.out.println("\nC'est un coloriage: "+(Coloriage.est_col(gphe, etiq)?"oui" : "non"));
         } catch (IllegalArgumentException erreur) {
             System.err.println(erreur.getMessage());
         }
     }
+    
     */
 	
 }

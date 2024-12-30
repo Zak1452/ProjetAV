@@ -5,9 +5,14 @@ import java.util.List;
 import java.util.Set;
 
 import up.mi.av.projet.Q17.NonColoriage;
+import up.mi.av.projet.Q3.Coloriage;
 import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
-
+/**
+ * Classe implémentant l'algorithme de Wigderson pour la coloration d’un graphe en 3 couleurs.  
+ * 
+ * @author Zakaria Chaker
+ */
 public class AlgorithmeWigderson {
 	
 	/**
@@ -54,5 +59,45 @@ public class AlgorithmeWigderson {
             }
         }
     }
+    /**
+     * Cette méthode main teste l'algorithme de Wigderson pour la coloration d'un graphe.  
+     * Elle crée un graphe de Petersen (figure 2) et applique l'algorithme pour vérifier si le graphe  
+     * est 3-coloriable.  
+     * 
+     * Résultats affichés :  
+     * - L'étiquetage produit par l'algorithme de Wigderson.  
+     * - Si le coloriage est valide via la méthode `est_col`.  
+     * 
+     * Pour exécuter ce test, il faut décommenter le script du bas.
+     * @param args Arguments de la ligne de commande.
+     */
+    
+   /*
+   
+    public static void main(String[]args)
+    {
+    	Graphe gphe = new Graphe(10);
+		
+		gphe.ajoutRelation(0, 5);
+		gphe.ajoutRelation(0, 4);
+		gphe.ajoutRelation(0, 6);
+		gphe.ajoutRelation(4, 8);
+		gphe.ajoutRelation(4, 3);
+		gphe.ajoutRelation(3, 7);
+		gphe.ajoutRelation(3, 9);
+		gphe.ajoutRelation(9, 2);
+		gphe.ajoutRelation(9, 6);
+		gphe.ajoutRelation(6, 1);
+		gphe.ajoutRelation(1, 8);
+		gphe.ajoutRelation(1, 7);
+		gphe.ajoutRelation(7, 5);
+		gphe.ajoutRelation(8, 2);
+		gphe.ajoutRelation(2, 5);
+		
+		System.out.println("Etiquettage fourni par l'algo de Wigderson: "+wigderson(gphe));
+		System.out.println("\nEst-ce un coloriage valide? (méthode est_col(graphe, etiquettage)): "+(Coloriage.est_col(gphe, wigderson(gphe)) ? "oui" : "non"));
+    }
+    
+   */
 }
 

@@ -42,11 +42,12 @@ public class Coloriage {
 	
 	/**
 	 * Test de la méthode est_col sur un graphe de type Patersen (graphe Q3.) 
-	 * Pour effectuer le test, il suffit de décommenter la méthode main qui construit le graphe.
-	 *  
+	 * Pour effectuer le test, il suffit de décommenter le script du bas
 	 * @param args
 	 */
+	
 	/*
+	 
 	public static void main(String[]args)
 	{
 		Graphe gphe = new Graphe(10);
@@ -81,5 +82,6 @@ public class Coloriage {
 		
 		System.out.print(est_col(gphe, etiq));
 	}
+	
 	*/
 }

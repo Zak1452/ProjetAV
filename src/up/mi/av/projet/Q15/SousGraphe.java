@@ -20,7 +20,7 @@ public class SousGraphe {
      * @return matrice d'adjacence du sous-graphe
      * @throws IllegalArgumentException
      */
-    public static int[][] sous_graphe(Graphe gphe, int[] sg) throws IllegalArgumentException {
+    public static int [][] sous_graphe(Graphe gphe, int [] sg) throws IllegalArgumentException {
         
     	int n = sg.length;
 
@@ -59,7 +59,9 @@ public class SousGraphe {
      * 
      * @param args
      */
+    
 	/*
+
 	public static void main(String[] args) {
 		
         
@@ -84,7 +86,7 @@ public class SousGraphe {
 		int [] sousGrapheVect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 		int [][] matriceSousGraphe = sous_graphe(gphe, sousGrapheVect);
 
-		System.out.println("Matrice d'adjacence du sg: ");
+		System.out.println("Matrice d'adjacence du sg (graphe de Petersen (figure 2)): ");
 		for (int i = 0; i < matriceSousGraphe.length; i++) 
 		{
 		    for (int j = 0; j < matriceSousGraphe[i].length; j++) 
@@ -94,6 +96,8 @@ public class SousGraphe {
 		    System.out.println();
 		}
 	}
+	
 	*/
+	
 }
 

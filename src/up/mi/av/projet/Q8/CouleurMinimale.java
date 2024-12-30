@@ -58,7 +58,9 @@ public class CouleurMinimale {
 	 * Le test renvoie la couleur minimale possible que peut avoir 2. 
 	 * @param args
 	 */
+	
 	/*
+	
 	public static void main(String[]args)
 	{
 		Graphe gphe = new Graphe(4);
@@ -74,12 +76,12 @@ public class CouleurMinimale {
 		etiq.etiqueter(2, 3);
 		etiq.etiqueter(3, 1);
 
-		
-		
-		System.out.println(etiq);
-		System.out.println("La couleur minimale que peut avoir le sommet 2 est: "+min_couleur_possible(gphe, etiq, 2));
+	
+		System.out.println("\nEtiquetage réalisé par construction: "+ etiq);
+		System.out.println("\nLa couleur minimale que peut avoir le sommet 2 est: "+min_couleur_possible(gphe, etiq, 2));
 		
 	}
+	
 	*/
 	
 }

@@ -7,6 +7,12 @@ import up.mi.av.projet.Q15.SousGraphe;
 import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
 
+/**
+ * Classe fournissant des outils pour analyser les sommets non colorés d’un graphe.  
+ * 
+ * @author Zakaria Chaker
+ *
+ */
 public class UtilGraphe {
 
 	/**
@@ -63,11 +69,13 @@ public class UtilGraphe {
      *
      * Ce test affiche la liste des voisins à un sommet qui n'ont pas été coloriés... 
      * Dans ce cas, on force le sommet 5 a avoir -1 comme etiquette.
-     * Pour effectuer ce test, il suffit de décommenter le scritp du bas
+     * Pour effectuer ce test, il suffit de décommenter le script du bas.
 
 	 * @param args
 	 */
+	
 	/*
+	
 	public static void main(String[]args)
 	{
 		Graphe gphe = new Graphe(10);
@@ -100,10 +108,12 @@ public class UtilGraphe {
 		etiq.etiqueter(8, 1);
 		etiq.etiqueter(9, 1);
 		
-		System.out.println(voisins_non_colories(gphe, etiq, 7));
-		System.out.print(degre_non_colories(gphe, etiq, 2));
+		System.out.println("Sommets voisins au sommets 7 qui ne sont pas coloriés (graphe de Petersen (figure 2)): "+ voisins_non_colories(gphe, etiq, 7));
+		System.out.print("\nLe nombre total des voisons non coloriés au sommet 7: "+degre_non_colories(gphe, etiq, 2));
 	}
+	
 	*/
+	
 }
 
 	
