@@ -28,7 +28,7 @@ public class UtilGraphe {
 	        sousGrapheVect[i] = i; 
 	    }
 
-	    int [][] matrice = SousGraphe.sousGraphe(gphe, sousGrapheVect);
+	    int [][] matrice = SousGraphe.sous_graphe(gphe, sousGrapheVect);
 	    
 	    for (int i = 0; i < gphe.getNbSommets(); i++) {
 	        if (matrice[sommet][i] == 1 && etiq.getEtiquette(i) == -1) {

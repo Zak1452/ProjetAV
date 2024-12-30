@@ -4,9 +4,9 @@ import up.mi.av.projet.Q3.Etiquetage;
 import up.mi.av.projet.Q3.Graphe;
 
 /**
+ * Cette classe implémente une méthode gloutonne pour colorier un graphe.
  * 
  * @author Zakaria Chaker
- *
  */
 public class ColoriageGlouton {
 

@@ -6,9 +6,9 @@ import java.util.Set;
 
 import up.mi.av.projet.Q3.Graphe;
 /**
+ * Cette classe permet de générer des sous-graphes à partir d'un graphe initial.  
  * 
  * @author Zakaria Chaker
- *
  */
 public class SousGraphe {
 
@@ -20,7 +20,7 @@ public class SousGraphe {
      * @return matrice d'adjacence du sous-graphe
      * @throws IllegalArgumentException
      */
-    public static int[][] sousGraphe(Graphe gphe, int[] sg) throws IllegalArgumentException {
+    public static int[][] sous_graphe(Graphe gphe, int[] sg) throws IllegalArgumentException {
         
     	int n = sg.length;
 
@@ -82,7 +82,7 @@ public class SousGraphe {
 		
 		
 		int [] sousGrapheVect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-		int [][] matriceSousGraphe = sousGraphe(gphe, sousGrapheVect);
+		int [][] matriceSousGraphe = sous_graphe(gphe, sousGrapheVect);
 
 		System.out.println("Matrice d'adjacence du sg: ");
 		for (int i = 0; i < matriceSousGraphe.length; i++) 
