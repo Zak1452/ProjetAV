@@ -1,5 +1,5 @@
 # ProjetAV
-Sujet concours d'entrée à polytechnique (année 2018, filière MP)
+Scénario choisi: Sujet concours d'entrée à polytechnique (année 2018, filière MP) - Scénario 3
 
 Projet réalisé par:
 CHAKER Zakaria
@@ -14,6 +14,7 @@ Le projet est organisé en .. packages situés dans le dossier src:
 •	up.mi.av.projet.Q8
 •	up.mi.av.projet.Q9
 •	up.mi.av.projet.Q12
+
 
 *Q3:
 Ce package contient les classes principales pour gérer un graphe et l'etiquetage de ce dernier (coloriage) :
@@ -47,7 +48,7 @@ Méthode principale:
 - main(): Permet d'effectuer un test.
 
 
-*Q6
+*Q6:
 
 ________________________________________
 Exécution du programme
